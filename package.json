@@ -1,0 +1,27 @@
+{
+  "name": "ses-template-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/table": "^6.3.2",
+    "@types/yargs": "^17.0.8",
+    "boxen": "^6.2.1",
+    "chalk": "^2.4.2",
+    "typescript": "^4.5.5",
+    "yargs": "^17.3.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.51.0",
+    "@types/node": "^17.0.17",
+    "table": "^6.8.0",
+    "utimes": "^4.1.1"
+  }
+}
